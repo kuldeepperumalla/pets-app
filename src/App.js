@@ -1,7 +1,10 @@
 function App(){
+    const handleMouseMove = () => {
+        console.log(`button was clicked`)
+    }
     return(
         <div>
-            show animales here
+            <button onMouseMove={handleMouseMove} >Add animal</button>
         </div>
     )
 }
