@@ -1,10 +1,14 @@
+import { useState } from "react"
 function App(){
+    const [count, setState] = useState(0);
+
     const handleMouseMove = () => {
-        console.log(`button was clicked`)
+        setState(count+1)
     }
     return(
         <div>
-            <button onMouseMove={handleMouseMove} >Add animal</button>
+            <button onClick={handleMouseMove} >Add animal</button>
+            <div>Number of animals: {count}</div>
         </div>
     )
 }
