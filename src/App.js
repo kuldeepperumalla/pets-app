@@ -8,15 +8,15 @@ function getRandomAnimal() {
 console.log(getRandomAnimal());
 
 function App(){
-    const [count, setState] = useState(0);
+    const [animals, setAnimals] = useState([]);
 
-    const handleMouseMove = () => {
-        setState(count+1)
+    const handleClick = () => {
+        setAnimals([...animals, getRandomAnimal()])
     }
     return(
         <div>
-            <button onClick={handleMouseMove} >Add animal</button>
-            <div>Number of animals: {count}</div>
+            <button onClick={handleClick} >Add animal</button>
+            <div>animals: {animals}</div>
         </div>
     )
 }
