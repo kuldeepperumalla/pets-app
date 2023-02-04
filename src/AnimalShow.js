@@ -25,7 +25,11 @@ function AnimalShow({type, value}){
     }
     return <div onClick={handleClick}>
         <img alt='animal' src={svgMap[type]}/>
-        <h1>{value+1}</h1>
+        <img 
+        alt="heart" 
+        src={heart}
+        style={{width: 10 + 10 * clicks + 'px'}}
+        />
     </div>
 }
 
