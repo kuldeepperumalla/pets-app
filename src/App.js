@@ -15,8 +15,8 @@ function App(){
         setAnimals([...animals, getRandomAnimal()])
     }
 
-    const renderedAnimals = animals.map((animal, index) => {
-        return <AnimalShow type={animal} key={index} />
+    const renderedAnimals = animals.map((animal, index, value) => {
+        return <AnimalShow type={animal} value={index} />
     })
     return(
         <div>
