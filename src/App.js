@@ -1,3 +1,4 @@
+import './App.css'
 import { useState } from "react"
 import AnimalShow from "./AnimalShow";
 
@@ -15,13 +16,13 @@ function App(){
         setAnimals([...animals, getRandomAnimal()])
     }
 
-    const renderedAnimals = animals.map((animal, index, value) => {
-        return <AnimalShow type={animal} value={index} />
+    const renderedAnimals = animals.map((animal, index) => {
+        return <AnimalShow type={animal} key={index} />
     })
     return(
-        <div>
+        <div className='app'>
             <button onClick={handleClick} >Add animal</button>
-            <div>{renderedAnimals}</div>
+            <div className='animal-list' >{renderedAnimals}</div>
         </div>
     )
 }
