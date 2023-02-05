@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pets-app/static/css/main.6fcb89ac.css",
-    "main.js": "/pets-app/static/js/main.0e1a41c9.js",
+    "main.js": "/pets-app/static/js/main.41f79ea8.js",
     "static/media/dog.svg": "/pets-app/static/media/dog.70df56096fa41df9d7cc64fb46b40933.svg",
     "static/media/cat.svg": "/pets-app/static/media/cat.a5ff6c61483cb1b6f176ebe2f042b359.svg",
     "static/media/gator.svg": "/pets-app/static/media/gator.9035accbd534fc488eb1fb531c9e767b.svg",
@@ -11,10 +11,10 @@
     "static/media/heart.svg": "/pets-app/static/media/heart.286db198ed3962d7ec4724276f411c63.svg",
     "index.html": "/pets-app/index.html",
     "main.6fcb89ac.css.map": "/pets-app/static/css/main.6fcb89ac.css.map",
-    "main.0e1a41c9.js.map": "/pets-app/static/js/main.0e1a41c9.js.map"
+    "main.41f79ea8.js.map": "/pets-app/static/js/main.41f79ea8.js.map"
   },
   "entrypoints": [
     "static/css/main.6fcb89ac.css",
-    "static/js/main.0e1a41c9.js"
+    "static/js/main.41f79ea8.js"
   ]
 }
