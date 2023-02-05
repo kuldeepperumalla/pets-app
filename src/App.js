@@ -13,7 +13,7 @@ function App(){
     const [animals, setAnimals] = useState([]);
 
     const handleClick = () => {
-      setAnimals([getRandomAnimal(), ...animals]);
+      setAnimals([...animals, getRandomAnimal()]);
     };
 
     const renderedAnimals = animals.map((animal, index) => {
